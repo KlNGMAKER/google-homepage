@@ -1,0 +1,45 @@
+body {
+    min-height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+header {
+    height: 30px;
+    width: 100%;
+    padding-top: 15px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+a {
+    color: black;
+    opacity: 0.75;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.btn {
+    font-weight: bold;
+    color: rgb(117, 117, 117);
+}
+.header-left {
+    float: left;
+}
+.header-left li {
+    margin-left: 15px;
+}
+.header-right {
+    float: right;
+}
+.header-right li {
+    margin-right: 15px;
+}
