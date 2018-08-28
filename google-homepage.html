@@ -10,45 +10,42 @@
     </head>
     <body>
         <header>
-            <nav class="header-left">
+            <nav>
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Store</a></li>
-                </ul>
-            </nav>
-            <nav class="header-right">
-                <ul>
-                    <li><a href="#">Gmail</a></li>
-                    <li><a href="#">Images</a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    <li class="flex-center push-right"><a href="#">About</a></li>
+                    <li class="flex-center push-right"><a href="#">Store</a></li>
+                    <div class="spacer"></div>
+                    <li class="flex-center push-left"><a href="#">Gmail</a></li>
+                    <li class="flex-center push-left"><a href="#">Images</a></li>
+                    <li class="flex-center push-left"><a href="#" class="google menu"></a></li>
+                    <li class="flex-center push-left"><a href="#" class="google notification"></a></li>
+                    <li class="flex-center push-left"><a href="#"></a></li>
                 </ul>
             </nav>
         </header>
-        <section>
-            <div>
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-                <form action="#" method="POST">
-                    <div><input class="search" type="text" name="search"></div>
-                    <div>
+        <section class="content flex-center">
+            <div class="search flex-center">
+                <div class="logo">  
+                    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+                </div>
+                <form class="flex-center" action="#" method="POST">
+                    <input class="search-input" type="text" name="search">
+                    <div class="search-submit flex-center">
                         <input class="btn" type="submit" value="Google Search">
                         <input class="btn" type="submit" value="I'm Feeling Lucky">
                     </div>
+                </form>
             </div>
         </section>
         <footer>
-            <nav class="footer-left">
+            <nav>
                 <ul>
-                    <li><a href="#">Advertising</a></li>
-                    <li><a href="#">Business</a></li>
-                </ul>
-            </nav>
-            <nav class="footer-right">
-                <ul>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Settings</a></li>
+                    <li class="push-right"><a href="#">Advertising</a></li>
+                    <li class="push-right"><a href="#">Business</a></li>
+                    <div class="spacer"></div>
+                    <li class="push-left"><a href="#">Privacy</a></li>
+                    <li class="push-left"><a href="#">Terms</a></li>
+                    <li class="push-left"><a href="#">Settings</a></li>
                 </ul>
             </nav>
         </footer>
