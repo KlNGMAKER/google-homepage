@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: arial, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
 header, footer {
     width: 100%;
@@ -45,9 +45,9 @@ a:hover {
     padding: 0 1.5em;
     height: 3em;
     border: solid rgb(242, 242, 242) 1px;
+    border-radius: 2px;
     background: none;
     background-color: #f2f2f2;
-    border-radius: 2px;
 }
 .btn:hover {
     color: #222;
@@ -88,6 +88,17 @@ a:hover {
 .search-submit {
     padding-top: 1.85em;
  }
+.header-nav ul li, .footer-nav ul li {
+    display:flex;
+    justify-content: center;
+}
+.footer-nav {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+.footer-nav ul li a {
+    color: #666;
+}
 
 /** --- UTILITY --- **/
 .flex-center {
@@ -101,10 +112,10 @@ a:hover {
     float: right;
 }
 .push-left {
-    margin-right: 1em;
+    margin-right: 1.5em;
 }
 .push-right {
-    margin-left: 1em;
+    margin-left: 1.5em;
 }
 .spacer {
     flex-grow: 1;
@@ -139,3 +150,11 @@ a:hover {
 .notification:hover {
     background-color: rgba(0, 0, 0, 1.0)
 }
+.user-logo {
+    background-image: url("https://d11im0xz45jykv.cloudfront.net/service/FM/user-logo_d.png");
+    border-radius: 50%;
+    background-size: 32px 32px;
+    height: 32px;
+    width: 32px;
+}
+    
